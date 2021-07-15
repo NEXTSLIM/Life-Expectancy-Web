@@ -1,0 +1,52 @@
+/* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+body {
+    background: #f1f1f1;
+  }
+  
+  h1 {
+    font-size: 80px;
+  }
+  
+  h3 {
+    font-size: 30px;
+  }
+  
+ 
+  
+  /* Styling the header, giving it a height, a background color, and some top padding */
+  .head {
+    height: 200px;
+    padding-top: 20px;
+    background: #a05a5a;
+  }
+  
+  /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
+  .head title {
+    padding: 60px;
+    margin: 0;
+    color: rgb(129, 16, 235);
+    background-color: cornsilk;
+    text-align: center;
+  }
+  
+  
+  
+  /* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
+  @media (max-width: 480px) {
+    .navbar li {
+      padding: 10px;
+    }
+  
+    .post {
+      margin-right: 30px;
+      margin-left: 30px;
+    }
+  
+    .navbar ul {
+      visibility: hidden;
+    }
+  
+    #nav-select {
+      visibility: visible;
+    }
+  }
