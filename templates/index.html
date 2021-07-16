@@ -39,17 +39,17 @@
     <div class="container d-flex justify-content-between align-items-center">
 
       <div class="logo">
-        <h1><a href="index.html">LIFE/EXPECTANCY</a></h1>
+        <h1><a href="https://expectancy-web.herokuapp.com/">LIFE/EXPECTANCY</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="../static/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="active " href="index.html">OVERVIEW</a></li>         
+          <li><a class="active " href="https://expectancy-web.herokuapp.com/">OVERVIEW</a></li>         
           <li><a href="#OUR WORK_FLOW">OUR WORK_FLOW</a></li>
           <li><a href="#ANALYSIS/MODELS">ANALYSIS/MODELS</a></li>
-          <li><a href="plots.html">PLOTS</a></li>
+          <li><a href="https://expectancy-web.herokuapp.com/plots">PLOTS</a></li>
           <li><a href="#THE TEAM">TEAM</a></li>
           <li><a href="#THEAPP">THE APP</a></li>
           
@@ -106,7 +106,7 @@
             <h2 class="section-heading">Can we correctly predict life expectancy? <br><br> And, if so, which features are most relevant for prediction?</h2>
           </div>
         </div>
-
+<br>
         <div class="row">
           <div class="col-md-4" data-aos="fade-up" data-aos-delay="">
             <div class="feature-1 text-center">
@@ -115,42 +115,52 @@
               </div>
               <h3 class="mb-3">Context / Motivation</h3>
               <p>We are curious analyze the life expectancy, because it is a key metric for assessing population health. </p>
+              <p>Shifts in life expectancy are often used to describe trends in mortality</p>
             </div>
           </div>
           <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
             <div class="feature-1 text-center">
               <div class="wrap-icon icon-1">
-                <i class="bi bi-cloud-arrow-down-fill"></i>
+                <a href="../static/img/FINAL PROJECT REPORT (1).pdf"><i class="bi bi-file-earmark-text-fill"></i></a>
               </div>
-              <h3 class="mb-3">Data Collection / ETL</h3>
-              <p>With 1,345 indicators across 20 categories for 60 years, the World Bank Data Bank is an invaluable resource to help us explore insigns about the life expectancy.</p>
+              <h3 class="mb-3">Report / Insights</h3> 
+              <p>This project leverages the World Data Bank’s Development Indicators dataset, which contains development indicators for 214 countries and territories, along with 33 aggregate country groupings (e.g. world, regions, income levels).</p>
+              
             </div>
           </div>
           <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
             <div class="feature-1 text-center">
               <div class="wrap-icon icon-1">
-                <i class="bi bi-funnel-fill"></i>
+                <i class="bi bi-code-slash"></i>
               </div>
-              <h3 class="mb-3">Filtering /</h3>
-              <p>The primary World Bank collection of development indicators, compiled from officially-recognized international sources. It presents the most current and accurate global development data available, and includes national, regional and global estimates.</p>
+              <h3 class="mb-3">Code / Repository</h3>
+              <p>Using our group’s diverse field of specialisations, we have sought to collate a more rounded database(1999-2019) in which we built and deployed an interactive machine learning model(1999-2019) to predict life expectancy based in 19 key indicators.
             </div>
           </div>
-        </div>
+<!-- 
+          <div class="container">
 
-      </div>
+            <div class="row justify-content-center text-center mb-5">
+              <div class="col-md-5" data-aos="fade-up">
+          
+            <a data-scroll href="#full">
+              <div class="arrow"></div>
+            </a>
+          </div>
+          <div id="full"></div>
+        </div> -->
+        
     </section>
     <hr>
     <!-- End Home -->
 
     <!-- ======= Process Section ======= -->
-    <section id="OUR WORK_FLOW"> 
+    <section id="OUR WORK_FLOW" class="section border-top border-bottom"> 
           <div class="container">
         <div class="row justify-content-center text-center mb-5" data-aos="fade">
                    <h1 class="section-heading">OUR WORK_FLOW</h1>
-            <p>This project leverages the World Data Bank’s Development Indicators dataset, which contains development
-              indicators for 214 countries and territories, along with 33 aggregate country groupings (e.g. world, regions,
-              income levels).</p>
-            <img src="../static/img/undraw_svg_1.png" alt="Image" class="img-fluid">
+                   <p>With 1,345 indicators across 20 categories for 60 years, the World Bank Data Bank is an invaluable resource to help us explore insigns about the life expectancy.</p>
+            <a href= "https://github.com/NEXTSLIM/Life-Expectancy/blob/main/dataset_clean/ML_clean.ipynb"> <img src="../static/img/undraw_svg_1.png" alt="Image" class="img-fluid"> </a>
           </div>
         </div>
         <hr>
@@ -183,7 +193,7 @@
               <span class="number">03</span>
               <h3>INSIGHTS/APP</h3>
               <br>
-              <p> Using <b>Tableau</b> and <b>D3.js</b>  we create insightful and impactful visualizations in an interactive and colorful way to extend the analysis of the life expectancy. </p>
+              <p> Using <b>Tableau</b> and <b>D3.js / Plotly</b>  we create insightful and impactful visualizations in an interactive and colorful way to extend the analysis of the life expectancy. </p>
               <br>
               <p>Finally we build and deploy a interacting machine learning Model(Gradient boosting Regressor) to predict life expectancy based in the last 20 years of the dataset (1999-2019) and ours 19 key indicators. </p>
             </div>
@@ -196,14 +206,14 @@
     <hr>
 
    <!-- ======= Analysis Section ======= -->
-   <section id="ANALYSIS/MODELS"> 
+   <section id="ANALYSIS/MODELS" class="section border-top border-bottom"> 
     <div class="container">
   <div class="row justify-content-center text-center mb-5" data-aos="fade">
-             <h1 class="section-heading">OUR_ANALYSIS</h1>
-      <p>This project leverages the World Data Bank’s Development Indicators dataset, which contains development
-        indicators for 214 countries and territories, along with 33 aggregate country groupings (e.g. world, regions,
-        income levels).</p>
-      <img src="../static/img/undraw_svg_1.1.jpg" alt="Image" class="img-fluid">
+    <h1 class="section-heading">OUR_ANALYSIS</h1>
+    <p>We used Linear Regression as exploratory starting point to analyses the original data (1960-2019).</p>
+      <p>Then we filtered down the data by identifying 19 key indicators that we felt were most applicable, as well as the range of years we wanted the data to represent(1999-2019). </p>
+      <p>For this data set we apply Gradient Boosting Regressor, which is the core for our application.</p>
+      <a href= "https://github.com/NEXTSLIM/Life-Expectancy/blob/main/ETL%2BLife%20Expectancy%20LR%20Model/data/instructions.MD"> <img src="../static/img/undraw_svg_1.1.jpg" alt="Image" class="img-fluid"> </a>
     </div>
   </div>
   <hr>   
@@ -276,7 +286,7 @@
                     </blockquote>
 
                     <p class="review-user">
-                      <img src="../static/img/person_2.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
+                    <a href= "https://www.linkedin.com/in/arron-nguyen-566219b5/"> <img src="../static/img/person_2.jpg" alt="Image" class="img-fluid rounded-circle mb-3"></a>
                       <span class="d-block">
                         <span class="text-black">Arron</span>, &mdash;  Data Mining /ETL /Phython Analysis / ML /Streamlit
                       </span>
@@ -293,7 +303,7 @@
                     </blockquote>
 
                     <p class="review-user">
-                      <img src="../static/img/person_1.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
+                      <a href="https://www.linkedin.com/in/renzoonly/"> <img src="../static/img/person_1.jpg" alt="Image" class="img-fluid rounded-circle mb-3"></a>
                       <span class="d-block">
                         <span class="text-black">Renzo</span>, &mdash; Data Colletion /ETL / AWS(S3)/ Phython Analysis / Web Designer /ML/Streamlit
                       </span>
@@ -310,7 +320,7 @@
                     </blockquote>
 
                     <p class="review-user">
-                      <img src="../static/img/person_3.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
+                      <a href="https://www.linkedin.com/in/carmen-jiaman-li/"> <img src="../static/img/person_3.jpg" alt="Image" class="img-fluid rounded-circle mb-3"></a>
                       <span class="d-block">
                         <span class="text-black">Carmen</span>, &mdash; Tableau / Data visualization / ETL /Phython Analysis
                       </span>
@@ -326,9 +336,9 @@
                     </blockquote>
 
                     <p class="review-user">
-                      <img src="../static/img/person_4.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
+                      <a href= "https://www.linkedin.com/in/callum-linnegan/?originalSubdomain=au"> <img src="../static/img/person_4.jpg" alt="Image" class="img-fluid rounded-circle mb-3"></a>
                       <span class="d-block">
-                        <span class="text-black">Callum</span>, &mdash; D3.js / Tracing / Evaluation
+                        <span class="text-black">Callum</span>, &mdash; D3.js / Plotly / Tracing / Evaluation
                       </span>
                     </p>
 
@@ -343,7 +353,7 @@
                     </blockquote>
 
                     <p class="review-user">
-                      <img src="../static/img/person_5.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
+                      <a href= "https://www.linkedin.com/in/tealiie-le/img"> <img src="../static/img/person_5.jpg" alt="Image" class="img-fluid rounded-circle mb-3"></a>
                       <span class="d-block">
                         <span class="text-black">Tealiie Le</span>, &mdash; Tableau / Data visualization / Documentation
                       </span>
@@ -359,7 +369,7 @@
                     </blockquote>
 
                     <p class="review-user">
-                      <img src="../static/img/person_6.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
+                      <a href= "https://www.linkedin.com/in/nicklaus-ng-697180190/"> <img src="../static/img/person_6.jpg" alt="Image" class="img-fluid rounded-circle mb-3"></a>
                       <span class="d-block">
                         <span class="text-black">Nicklaus</span>, &mdash; D3.js / Documentation / Tracing / Story telling 
                       </span>
@@ -386,7 +396,7 @@
           </div>
           <div class="col-md-5 text-center text-md-end">
             <p><a href="https://share.streamlit.io/nextslim/life-expectancy-app/main/expectancy-app.py" class="btn d-inline-flex align-items-center"> <i class="bx bxl-firebase"></i><span>Streamlit</span></a></p>
-            <a href="#" class="btn d-inline-flex align-items-center"><i class="bx bxl-github"></i><span>GitHub</span></a></p>
+            <a href="https://github.com/NEXTSLIM/Life-Expectancy" class="btn d-inline-flex align-items-center"><i class="bx bxl-github"></i><span>GitHub</span></a></p>
           </div>
         </div>
       </div>
@@ -398,12 +408,7 @@
   <footer class="footer" role="contentinfo">
     <div class="container">
        <h1 style="text-align:center;">THANK YOU FOR VISITING OUR WEBSITE / PROJECT!</h1> <br>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam aperiam
-            dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi.</p>
-
         </div>
-        
-      </div>
 <hr>
       <div class="row justify-content-center text-center">
         <div class="col-md-7">

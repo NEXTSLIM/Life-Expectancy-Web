@@ -121,4 +121,8 @@
     })
   });
 
+  smoothScroll.init();
+
+
+
 })()
