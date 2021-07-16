@@ -3,5 +3,4 @@ One of the most used measures of a population’s overall health is through its 
 
 [![Lets do it!](https://github.com/NEXTSLIM/Life-Expectancy-Web/blob/main/static/img/mq2.jpg)
 
-
 if you want to explore more: https://expectancy-web.herokuapp.com/
