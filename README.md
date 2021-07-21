@@ -1,7 +1,8 @@
 # Life-Expectancy(WEBPAGE)
 One of the most used measures of a population’s overall health is through its life expectancy.  By examining causes, patterns, and trends in death, it is possible to help explain differences and changes in the health of a population. 
 
-In this website you will find all the details relate with the process involved in forecast of the Life Expectancy.
+On this website, you will find all the details related to the process involved in the forecast of Life Expectancy.
+
 [![Lets do it!](https://github.com/NEXTSLIM/Life-Expectancy-Web/blob/main/static/img/mq2.jpg)](https://www.youtube.com/watch?v=JZ9iH2VVPj8)
 
 
